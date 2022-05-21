@@ -1,6 +1,6 @@
 # Frostnova Starter Project
 
-Starter project for [Frostnova](https://github.com/ironexdev/frostnova) - a fully customizable [PSR](https://www.php-fig.org) compatible PHP framework.
+Starter project for [Frostnova](https://github.com/ironexdev/frostnova) - a fully customizable and [PSR](https://www.php-fig.org) compatible PHP framework.
 
 ## Requirements
 
