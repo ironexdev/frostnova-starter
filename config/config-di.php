@@ -23,7 +23,7 @@ return [
     // Implements PSR-15
     Router::class => DI\factory(function (ContainerInterface $container, ResponseFactoryInterface $responseFactory) {
         $routes = require_once(APP_DIRECTORY . DS . ".." . DS . "config" . DS . "api" . DS . "routes.php");
-        return new Router($responseFactory, $routes);
+        return new Router($container, $responseFactory, $routes);
     }),
 
     // Implements PSR-15
