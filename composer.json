@@ -16,7 +16,7 @@
     "psr/http-server-middleware": "^1.0",
     "psr/http-server-handler": "^1.0",
     "psr/http-factory": "^1.0",
-    "frostnova/frostnova": "dev-master"
+    "frostnova/frostnova": "^1.0.0"
   },
   "type": "project",
   "description": "Starter project for Frostnova - a fully customizable PSR compatible PHP framework.",
