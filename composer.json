@@ -25,5 +25,14 @@
       "composer/package-versions-deprecated": true
     }
   },
+  "scripts": {
+    "add-docker": [
+      "composer create-project --no-install --remove-vcs frostnova/docker:1.0.0 docker",
+      "php -r \"copy('docker/docker-compose.yml', 'docker-compose.yml');\"",
+      "php -r \"unlink('docker/docker-compose.yml');\""
+    ]
+  },
   "license": "MIT"
 }
+
+

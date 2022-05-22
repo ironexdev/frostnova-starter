@@ -45,7 +45,7 @@ return [
     CorsMiddleware::class => DI\factory(function () {
         return new CorsMiddleware([
             "origin" => [ // Access-Control-Allow-Origin
-                "http://client.local"
+                "http://frostnova.local"
             ],
             "methods" => [ // Access-Control-Allow-Methods
                 "DELETE",
